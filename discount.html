@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="discountstyle.css" type="text/css" />
+    <title>Discount Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container" id="topContainer">
+        <div class="title">MRP PRICE</div>
+        <div class="inputContainer">
+          <span>$</span>
+          <input
+            onkeyup="calculateBill()"
+            type="text"
+            id="billTotalInput"
+            placeholder="0.00"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="title">DISCOUNT</div>
+        <div class="inputContainer">
+          <span>%</span>
+          <input
+            onkeyup="calculateBill()"
+            type="text"
+            id="discountInput"
+            placeholder="10"
+          />
+        </div>
+      </div>
+       <div class="value">
+        <div class="totalbill">
+            <div class="title">TOTAL BILL</div>
+            <div class="total" id="grandTotal">Rs 0.00</div>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <div class="author">
+      <h3>by Ashwan kumar uyyala</h3>
+    </div>
+
+    <script type="text/javascript" src="discountscript.js"></script>
+  </body>
+</html>

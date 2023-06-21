@@ -1,0 +1,71 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  body {
+    background: #4e0707;
+  }
+  
+  .wrapper {
+    height: 525px;
+    width: 360px;
+    color: white;
+    background: #000000;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+  
+  #topContainer {
+    margin-top: 4rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background: #353959;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #billTotalInput,
+  #discountInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  
+  .total {
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-top: 40px;
+  }
+
+  .wrapper .value{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .value .title{
+    margin-left: 40px;
+  }

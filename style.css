@@ -1,0 +1,112 @@
+body{
+    background: wheat;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(images/bg.jpg); */
+    /* background-size: 100% 100%; */
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading{
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    background: black;
+    width: 600px;
+    height: 600px;
+    background-image: url(images/box.jpg);
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.container1{
+    margin: 20px;
+    width: 30%;
+    height: 100px;
+    background-image: url(images/tip.jpg);
+    background-size: 100% 100%;
+    /* background: aqua; */
+    
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s linear;
+}
+.container1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* font-size: 1rem; */
+    align-items: center;
+
+}
+.container1:hover{
+    width: 60%;
+    height: 150px;
+    cursor: pointer;
+    
+}
+
+.container2{
+    margin: 20px;
+    width: 30%;
+    height: 100px;
+    background-image: url(images/dis.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s linear;
+}
+.container2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.container2:hover{
+    width: 60%;
+    height: 150px;
+    cursor: pointer;
+    
+}
+
+.container3{
+    margin: 20px;
+    width: 30%;
+    height: 100px;
+    background-image: url(images/rup.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s linear;
+}
+.container3 a{
+    text-decoration: none;
+    color: white;
+
+}
+.container3:hover{
+    width: 60%;
+    height: 150px;
+    cursor: pointer;
+    
+}
+
+.box .author{
+    margin-top: 100px;
+    color: gray;
+    font-size: small;
+}
+
